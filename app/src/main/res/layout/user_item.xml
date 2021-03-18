@@ -41,7 +41,6 @@
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center|start"
                     android:paddingTop="@dimen/_5sdp"
-                    android:paddingBottom="@dimen/_5sdp"
                     android:text="@{user.name}"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_12sdp"
