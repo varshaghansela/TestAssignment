@@ -42,7 +42,7 @@ class MainFragment : Fragment() {
         rvUser.hide()
         viewModel.getUserMaster(
             success = {
-                this.activity?.showToast("downloaded")
+              //  this.activity?.showToast("downloaded")
                 setComplaintList()
             }, publishError = { error ->
                 progressBar.hide()
